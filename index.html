@@ -1,1 +1,35 @@
-#main webpage
+
+<!DOCTYPE html>
+
+<html>
+    <header>
+    <title> TicTacToe </title>
+    <link rel="stylesheet" href="css/style.css">
+    </header>
+    <body>
+
+        <h1> Welcome to some random game </h1>
+        <div class="GameBoard"></div>
+
+        <div class="ChatBox"> 
+            <p id="message">Hi there</p> 
+        </div>
+
+        <div class="InputBox">
+            <button onClick="doThing()" style="font-size:25px;"> Click Test</button>
+
+
+        </div>
+        
+
+        
+        
+        
+
+        <script>
+            function doThing(){
+                document.getElementById("message").innerHTML = "waka";
+            }
+        </script>
+    </body>
+</html>
